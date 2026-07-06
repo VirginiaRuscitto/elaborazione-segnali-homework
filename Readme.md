@@ -2,6 +2,7 @@
 Analisi in frequenza di due brani musicali campionati ("Smells Like Teen Spirit" dei Nirvana e "Morning Mood" di Grieg), confrontando lo spettro di energia ottenuto tramite:
 - DFT implementata manualmente da zero
 - FFT tramite libreria (NumPy)
+
 I brani vengono divisi in sotto-finestre temporali di durata configurabile (parametro `M`) e per ciascuna finestra viene calcolato e visualizzato lo spettro.
  
 ## Homework 2 - Filtraggio di segnali audio
@@ -9,6 +10,7 @@ Applicazione di tre filtri lineari ai due brani musicali tramite convoluzione di
 1. Filtro passa-basso (porta nel tempo)
 2. Filtro passa-basso (porta in frequenza, tramite sinc)
 3. Filtro passa-alto (complementare al secondo)
+
 Per ciascun filtro vengono confrontati il segnale e lo spettro in ingresso e in uscita, stimando inoltre la funzione di trasferimento tramite rumore bianco gaussiano come segnale di test.
 
 ---
