@@ -18,7 +18,7 @@ Per ciascun filtro vengono confrontati il segnale e lo spettro in ingresso e in 
 ### Requisiti
  
 ```bash
-pip3 install numpy matplotlib librosa tqdm numba
+pip install numpy matplotlib librosa tqdm numba
 ```
 
 Per l'homework 2 è necessario anche `ipywidgets` (uso pensato per Jupyter/Colab).
@@ -26,7 +26,7 @@ Per l'homework 2 è necessario anche `ipywidgets` (uso pensato per Jupyter/Colab
 ### Esecuzione
  
 ```bash
-python3 homework1.py
+python homework1.py
 ```
 Verrà chiesto di inserire il parametro `M`, che rappresenta la durata delle sotto-finestre temporali in secondi.
  
